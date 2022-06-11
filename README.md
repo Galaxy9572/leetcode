@@ -1,6 +1,8 @@
-### 1、两数之和
+## 1、两数之和
 
-[题目描述](src/main/java/leetcode/editor/cn/doc/content/TwoSum.md)
+> 题目描述
+
+[两数之和](src/main/java/leetcode/editor/cn/doc/content/TwoSum.md)
 
 > 数据结构
 
@@ -8,11 +10,12 @@
 
 > 解题思路
 
-- 
 
-### 20、有效的括号
+## 20、有效的括号
 
-[题目描述](src/main/java/leetcode/editor/cn/doc/content/ValidParentheses.md)
+> 题目描述
+
+[有效的括号](src/main/java/leetcode/editor/cn/doc/content/ValidParentheses.md)
 
 > 数据结构
 
@@ -22,7 +25,11 @@
 
 - 碰到左括号入栈，碰到右括号弹栈比较与当前循环括号的对应右括号是否相同
 
-### [146、LRU Cache](src/main/java/leetcode/editor/cn/doc/content/LruCache.md)
+## 146、LRU Cache
+
+> 题目描述
+
+[LRU Cache](src/main/java/leetcode/editor/cn/doc/content/LruCache.md)
 
 > 数据结构
 
