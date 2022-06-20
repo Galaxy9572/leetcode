@@ -55,3 +55,34 @@
 
 - 一个栈用来存储数据，一个栈用来存储最小值序列
 - 最小值栈入栈必须保证：当后来的值比栈顶（最小值）都小或者等于时才允许入栈，必须要写等于，不然有多个相同的最小值时，只会有一个值入栈，导致peek报空栈异常
+
+## 剑指offer 06、从尾到头打印链表
+
+> 题目描述
+
+[最小栈](src/main/java/leetcode/editor/cn/doc/content/CongWeiDaoTouDaYinLianBiaoLcof.md)
+
+> 数据结构
+
+栈
+
+> 解题思路
+
+- 使用栈先入后出的特性，可以反向打印链表的值
+
+## 剑指 Offer 24.反转链表
+
+> 题目描述
+
+[最小栈](src/main/java/leetcode/editor/cn/doc/content/FanZhuanLianBiaoLcof.md)
+
+> 算法
+
+双指针
+
+> 解题思路
+
+- 需要三个变量prev, cur, temp
+- prev: 表示某个节点的上一个节点，上一个节点即代表链表翻转后的next节点
+- temp: 把当前节点的下一个节点先保存起来，方便下个循环指向它
+- cur: 当前操作的节点
